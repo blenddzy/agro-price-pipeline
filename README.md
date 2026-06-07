@@ -6,7 +6,9 @@ Pipeline ETL automatizado que extrae precios de commodities agrícolas argentino
 
 ## ¿Por qué existe esto?
 
-El monitoreo manual de precios agro consume tiempo y es propenso a errores. Este pipeline automatiza la recolección diaria, garantiza consistencia en los datos y genera un historial consultable para análisis.
+En mi trabajo como Analista de Negocios en una empresa agropecuaria (SUMIAGRO CBA), el seguimiento de precios de granos se hacía manualmente: entrar al sitio, copiar los valores, pegarlos en una planilla. Todos los días.
+
+Este pipeline automatiza ese proceso. La idea no es demostrar que sé hacer ETLs — es resolver algo que me molestaba en el trabajo real.
 
 ---
 
@@ -127,3 +129,11 @@ El pipeline genera logs detallados en `logs/pipeline.log`:
 - [ ] Agregar tipo de cambio dinámico via API del BCRA
 - [ ] Exportar reportes semanales en Excel
 - [ ] Dashboard de visualización con Streamlit
+
+---
+
+## Contexto
+
+Trabajo como Analista de Negocios en el sector agropecuario. Parte de mi día a día es monitorear precios de insumos y commodities para informar decisiones de compra. Este proyecto es la automatización de algo que hacía a mano.
+
+La estructura base del pipeline fue desarrollada con asistencia de IA (Claude). La lógica de negocio, la elección de fuentes de datos y la adaptación al contexto agro argentino son propias. Creo que saber usar IA como herramienta de desarrollo es parte del trabajo hoy, no un atajo.
